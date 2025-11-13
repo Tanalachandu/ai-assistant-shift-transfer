@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0b0f17; /* Dark background */
+  color: #e5e7eb; /* Light text */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Bootstrap overrides for dark theme */
+.card {
+  background-color: #111827;
+  color: #e5e7eb;
+  border-color: #1f2937;
+}
+
+.navbar, .navbar-light, .navbar-dark {
+  background-color: #0b0f17 !important;
+}
+
+.dark-navbar .navbar-brand,
+.dark-navbar .nav-link {
+  color: #e5e7eb !important;
+}
+.dark-navbar .nav-link.active,
+.dark-navbar .nav-link:hover,
+.dark-navbar .navbar-brand:hover {
+  color: #ffffff !important;
+}
+.dark-navbar .btn.btn-link.nav-link {
+  color: #93c5fd !important;
+}
+.dark-navbar .btn.btn-link.nav-link:hover {
+  color: #bfdbfe !important;
+  text-decoration: none;
+}
+
+.form-control, .form-select, .form-check-input, .input-group-text {
+  background-color: #0f172a;
+  color: #e5e7eb;
+  border-color: #374151;
+}
+.form-control::placeholder {
+  color: #9ca3af;
+}
+.form-control:focus, .form-select:focus {
+  background-color: #111827;
+  color: #f3f4f6;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 0.2rem rgba(37,99,235,0.15);
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+.btn-primary:hover {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+}
+.btn-secondary {
+  background-color: #374151;
+  border-color: #374151;
+  color: #e5e7eb;
+}
+.btn-outline-secondary {
+  border-color: #4b5563;
+  color: #e5e7eb;
+}
+.btn-outline-secondary:hover {
+  background-color: #4b5563;
+  color: #fff;
+}
+
+/* Tables and list items */
+.table {
+  color: #e5e7eb;
+}
+.table thead th {
+  background-color: #0f172a;
+  border-color: #1f2937;
+}
+.table tbody tr {
+  background-color: #111827;
+}
+.table tbody tr + tr td {
+  border-top-color: #1f2937;
+}
+
+a, .link {
+  color: #93c5fd;
+}
+a:hover, .link:hover {
+  color: #bfdbfe;
+}
+
+/* Utility */
+.text-muted { color: #9ca3af !important; }
+.border-0 { border-color: transparent !important; }
+
